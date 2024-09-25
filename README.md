@@ -1,2 +1,2 @@
-# innowiseTraineeTasks
-Repository for storing completed assignments for Data Engineer interns at InnowiseGroup Company
+## InnowiseTraineeTasks
+> Repository for storing completed assignments for Data Engineer interns in InnowiseGroup Company.
