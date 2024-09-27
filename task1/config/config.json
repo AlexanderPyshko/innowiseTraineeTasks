@@ -1,0 +1,6 @@
+{
+  "paths": {
+    "rooms": "./data/rooms.json",
+    "students": "./data/students.json"
+  }
+}
