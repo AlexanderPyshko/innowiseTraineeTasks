@@ -4,39 +4,39 @@
 &nbsp;&nbsp;&nbsp;&nbsp;This project allows you to load student and room data from JSON files into a PostgreSQL database, and then extract and format that data in JSON or XML format. The project is organized into several modules, each responsible for specific functionality: database operations, file loading, data formatting, and command-line interface handling.
 
 ## Project structure
-
-task1/
-│
-├── config/                     # Configuration files
-│   ├── config.json             # File with data path
-│   └── database_config.json    # Database configuration file
-│
-├── data/                       # Data for loading
-│   ├── rooms.json
-│   └── students.json
-│
-├── src/                        # Source code
-│   ├── python/     
-│   │    ├── cli.py                # Command-line interface module
-│   │    ├── config_loader.py      # Configuration loader module
-│   │    ├── db.py                 # Database module
-│   │    ├── file_loader.py        # File loader module
-│   │    ├── formatter.py          # Data formatting module
-│   │    └── main.py               # Mani program file
-│   └── sql/
-│         ├── create_index.sql              # Create necessary indexes for queries optimization module
-│         ├── create_schema_and_tables.sql  # Create schema and tables module
-│         └── queries.sql                   # Necessary database queries
-├── tests/                    # Tests
-│   ├── test_file_loader.py
-│   └── test_db.py
-│
-├── docker/                   # Docker files
-│   ├── Dockerfile            # Dockerfile for the project
-│   └── docker-compose.yml    # Docker-compose to launch database and app
-├── README.md                 
-├── requirements.txt          
-└── .gitignore
+	
+	task1/
+	│
+	├── config/                     # Configuration files
+	│   ├── config.json             # File with data path
+	│   └── database_config.json    # Database configuration file
+	│
+	├── data/                       # Data for loading
+	│   ├── rooms.json
+	│   └── students.json
+	│
+	├── src/                        # Source code
+	│   ├── python/     
+	│   │    ├── cli.py                # Command-line interface module
+	│   │    ├── config_loader.py      # Configuration loader module
+	│   │    ├── db.py                 # Database module
+	│   │    ├── file_loader.py        # File loader module
+	│   │    ├── formatter.py          # Data formatting module
+	│   │    └── main.py               # Mani program file
+	│   └── sql/
+	│         ├── create_index.sql              # Create necessary indexes for queries optimization module
+	│         ├── create_schema_and_tables.sql  # Create schema and tables module
+	│         └── queries.sql                   # Necessary database queries
+	├── tests/                    # Tests
+	│   ├── test_file_loader.py
+	│   └── test_db.py
+	│
+	├── docker/                   # Docker files
+	│   ├── Dockerfile            # Dockerfile for the project
+	│   └── docker-compose.yml    # Docker-compose to launch database and app
+	├── README.md                 
+	├── requirements.txt          
+	└── .gitignore
 
  ## Installation and Setup
 
